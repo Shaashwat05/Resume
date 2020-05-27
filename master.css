@@ -69,7 +69,6 @@ body{
 .about{
     padding-top: 100px;
     padding-bottom: 50px;
-    padd
 }
 
 .profile-img{
@@ -126,10 +125,12 @@ body{
     padding-top: 70px;
     padding-bottom: 30px;
     background: #f9f9f9;
+    margin-top: 200px;
 }
 
 .resume h3{
     margin-bottom: 50px;
+    margin-left: 60px;
 }
 
 
@@ -179,4 +180,43 @@ body{
     width: 20px;
     height: 20px;
     z-index: 1;
+}
+
+
+/*-----------Blogs and Articles---------------*/
+
+
+.blogs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blogs h1{
+    margin-bottom: 15px;
+}
+
+.blogs-box{
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.blogs-box img{
+    height: 230px;
+    width: 320px;
+    border-radius: 15%;
+}
+
+.blogs-box span{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogs-box p{
+    font-size: 15;
+    margin-top: 20px;
+    color: 7777;
 }
